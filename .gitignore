@@ -1,0 +1,8 @@
+node_modules/
+client/dist/
+data/store.json
+data/*.tmp
+.DS_Store
+*.log
+.vite/
+deploy.env

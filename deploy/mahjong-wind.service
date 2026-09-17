@@ -1,0 +1,16 @@
+[Unit]
+Description=立直麻将 · 风向盘
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/mahjong-wind
+Environment=NODE_ENV=production
+Environment=PORT=80
+ExecStart=/usr/bin/env node server/index.js
+Restart=always
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
