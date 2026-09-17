@@ -1,0 +1,125 @@
+package.json
+  s_91a0118847b41c::t_3c29580e95a6e6 1-29
+client/src/main.js
+  s_91a0118847b41c::t_57a9c22bcbe6c8 1-5
+client/src/rules.js
+  s_91a0118847b41c::t_ad852e1f7a8961 1-31,46-92
+  s_91a0118847b41c::t_a5fbd6d62e4190 32-45
+client/src/state.js
+  s_91a0118847b41c::t_ccf126041bda94 19-20
+  s_91a0118847b41c::t_b9563ff57f7d3e 4
+  s_91a0118847b41c::t_9485d2efdfa35b 176-181,183-202,205,208-211,214-222,224-228,230-249
+  s_91a0118847b41c::t_02e30ba9686708 1-3,5-18,21-104,106-175,182,203-204,206-207,212-213,223,229,250-436
+deploy.sh
+  s_91a0118847b41c::t_89b4ab1601e9c4 40-43,46-49
+  s_91a0118847b41c::t_fe0e7340d56cc5 54-56,60,63-65,67-78
+  s_91a0118847b41c::t_754a8b2d7f17d1 66
+  s_91a0118847b41c::t_72ce5f909cf851 44-45
+  s_91a0118847b41c::t_62f59931e15626 1-39,50-53,57-59,61-62,79-89
+client/src/App.vue
+  s_91a0118847b41c::t_628d90b7823a1f 1-3,6-22,26-35
+  s_91a0118847b41c::t_9587ee0e022fbe 4-5,23-25
+client/vite.config.js
+  s_91a0118847b41c::t_81ec05361cc3d1 1-23
+README.md
+  s_91a0118847b41c::t_6c6da0e4559659 29
+  s_91a0118847b41c::t_eb7d58dc143f16 58,60-69,71-73
+  s_91a0118847b41c::t_d5b610600132e4 1-28,30-44,46-57,59,70,74
+  s_91a0118847b41c::t_a5260c52ec0945 45
+deploy/nginx-mahjong.conf
+  s_91a0118847b41c::t_fb59aaa590e5e5 1-15
+deploy/ssh-pass.exp
+  s_91a0118847b41c::t_b21195666d9290 1,8-12
+  s_91a0118847b41c::t_56d9727ef6fc6b 2-7,13-25
+start.sh
+  s_91a0118847b41c::t_d742a998204745 1-17
+client/src/components/Toast.vue
+  s_91a0118847b41c::t_af310e2914b66d 1-7
+deploy/remote-setup.sh
+  s_91a0118847b41c::t_a317a6386cd83b 1-52
+client/src/views/WaitingView.vue
+  s_91a0118847b41c::t_6184027c13043b 1-48
+client/src/views/TableView.vue
+  s_91a0118847b41c::t_db7514f9654351 1-253
+client/src/style.css
+  s_91a0118847b41c::t_e361af77f1281a 309,311,313
+  s_91a0118847b41c::t_b19591996eaa4f 331-332,339
+  s_91a0118847b41c::t_b08813d54a9899 393-394,401
+  s_91a0118847b41c::t_4e0723710d5224 572-688
+  s_91a0118847b41c::t_776a92515c0325 1-8,10-220,223-308,310,312,314-330,333-338,340-392,395-400,402-571,689-694
+  s_91a0118847b41c::t_7458c15836f259 9
+  s_91a0118847b41c::t_ad05b0b5d59009 221-222
+client/src/components/RoomCodePad.vue
+  s_91a0118847b41c::t_544a6b535dc14a 1-41
+deploy/scp-pass.exp
+  s_91a0118847b41c::t_71316a7be64be0 1-26
+.gitignore
+  s_91a0118847b41c::t_14f6737be13c34 8
+  s_91a0118847b41c::t_dc7ae2f9e876b4 1-7
+server/rooms.js
+  s_91a0118847b41c::t_9152b086e045b6 1-78,80-85,107-289,291-292,295,297-313
+  s_91a0118847b41c::t_8a0a5a82c05c15 79,86-106
+  s_91a0118847b41c::t_be18944bc48298 290,293-294,296
+deploy/mahjong-wind.service
+  s_91a0118847b41c::t_f3fb4063c93bb9 1-16
+client/src/api.js
+  s_91a0118847b41c::t_ab9c4459267113 1-29,31-47,49,51-53,55-56,63-76
+  s_91a0118847b41c::t_4cb8b538d88688 30,48,50,54,57-62
+  s_91a0118847b41c::t_551957ca9e5985 77-84
+client/index.html
+  s_91a0118847b41c::t_74894dfefa872a 1-18
+server/index.js
+  s_91a0118847b41c::t_37680856a419b1 9
+  s_91a0118847b41c::t_99a91ccea95c68 32,35
+  s_91a0118847b41c::t_1e711c4bb3083a 68,72,75-76,80-81,84
+  s_91a0118847b41c::t_a28abfc9a2993a 140
+  s_91a0118847b41c::t_e84fd7d607aa86 67,69-71,73,77,79,82-83,85-86
+  s_91a0118847b41c::t_2465c5537c2f65 88,90,92,100,102,106,108,112,116,120,129,134
+  s_91a0118847b41c::t_1c36ad50906163 1-8,10-31,33-34,36,38-66,74,78,87,89,91,93-99,101,103-105,107,109-111,113-115,117-119,121-128,130-133,135-139,141,143-211
+  s_91a0118847b41c::t_a063dd60adf16d 37
+  s_91a0118847b41c::t_b85bc7027e73b4 142
+client/src/views/AuthView.vue
+  s_91a0118847b41c::t_64f898e7822bfb 1-81
+client/src/views/HistoryView.vue
+  s_91a0118847b41c::t_9ef553704a05ec 1-48
+server/store.js
+  s_91a0118847b41c::t_03f75bc02977ee 8,18
+  s_91a0118847b41c::t_938d23bd6f1cf8 1-7,9-17,19-69,99-131,133-134,138
+  s_91a0118847b41c::t_5c8ff98ddffddf 70-98
+  s_91a0118847b41c::t_188256ab05d535 132,135-137
+client/src/views/LobbyView.vue
+  s_91a0118847b41c::t_7a7ea7affda7a7 1-8,11-51,53,56-81,86-88,90-92,94-97
+  s_91a0118847b41c::t_989c09ba9caa05 9-10,52,54-55,82-85,89,93
+server/gameLogic.js
+  s_91a0118847b41c::t_83c6fc38acd539 263
+  s_91a0118847b41c::t_9574427b49ad04 1-262,264-539
+server/auth.js
+  s_91a0118847b41c::t_4bf898e6c4cdf8 70-71,73-77
+  s_91a0118847b41c::t_33e354c58253ef 1-69,72,78-125
+scripts/ensure-build.js
+  s_91a0118847b41c::t_3a3ac4e1d4eaaa 1-16
+client/src/components/SettleWizard.vue
+  s_91a0118847b41c::t_de8ed3b4631b26 1-76
+client/src/components/ConfirmDialog.vue
+  s_91a0118847b41c::t_d8f003bc89cc96 1-16
+client/src/components/ScorePad.vue
+  s_91a0118847b41c::t_453e9453899327 1-70
+client/src/components/Avatar.vue
+  s_91a0118847b41c::t_c59ec46b327990 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "3e706d3137ef96f44000b0e084c74120ae60a836",
+  "prompts": {},
+  "sessions": {
+    "s_91a0118847b41c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3d564731-ee97-44b1-b14a-cb5a1e651568",
+        "model": "grok-4.6"
+      },
+      "human_author": "gulingjun <gulingjun@trip.com>"
+    }
+  }
+}
