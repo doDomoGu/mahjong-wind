@@ -57,18 +57,15 @@ npm run dev
 
 ## 部署到阿里云 ECS
 
-本机执行（需能 SSH 登录那台机器，安全组放行 **22** 和 **80**）：
+生产访问路径与花火牌一致，挂在域名二级目录：
+
+- https://dodomogu.com/mahjong-wind/
+- 前端 base / API / Socket 见 `client/.env.production`
+
+本机执行（需能 SSH 登录那台机器）：
 
 ```bash
 ./deploy.sh root@你的公网IP
 ```
 
-默认装到 `/opt/mahjong-wind`，用 systemd 守护，监听 **80** 端口。手机打开 `http://公网IP` 即可。再次执行同一命令会更新代码，**不会覆盖** 服务器上已有的 `data/store.json`。
-
-也可把地址写进 `deploy.env`（不要提交仓库）后直接 `./deploy.sh`：
-
-```
-ECS_HOST=x.x.x.x
-ECS_USER=root
-PORT=80
-```
+默认装到 `/opt/mahjong-wind`，Node 监听 **3010**，由 nginx 把 `/mahjong-wind/` 反代过去。再次执行会更新代码，**不会覆盖** 服务器上已有的 `data/store.json`。

@@ -1,6 +1,8 @@
 import { io } from 'socket.io-client';
 
 const TOKEN_KEY = 'mahjong-wind-token';
+const API_BASE = (import.meta.env.VITE_API_BASE || '').replace(/\/$/, '');
+const SOCKET_PATH = import.meta.env.VITE_SOCKET_PATH || '/socket.io';
 
 export function loadToken() {
   try {
@@ -31,7 +33,7 @@ export async function request(path, options = {}) {
   if (token) {
     headers.Authorization = 'Bearer ' + token;
   }
-  const res = await fetch(path, {
+  const res = await fetch(API_BASE + path, {
     method: options.method || (options.body !== undefined ? 'POST' : 'GET'),
     headers,
     body: options.body !== undefined ? JSON.stringify(options.body) : undefined,
@@ -51,6 +53,7 @@ export function connectSocket(token, handlers) {
     socket.disconnect();
   }
   socket = io({
+    path: SOCKET_PATH,
     auth: { token },
     transports: ['websocket', 'polling'],
   });
