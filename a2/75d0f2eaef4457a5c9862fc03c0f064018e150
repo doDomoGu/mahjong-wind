@@ -1,0 +1,27 @@
+README.md
+  s_91a0118847b41c::t_64a33edeebb940 60-65,71
+client/.env.example
+  s_91a0118847b41c::t_e1a1fbc5952ec7 1-9
+client/vite.config.js
+  s_91a0118847b41c::t_e401a7f7c61366 1,5-20,23-27
+client/.env.production
+  s_91a0118847b41c::t_42eda5455391fb 1-3
+client/src/api.js
+  s_91a0118847b41c::t_fc1fe1ea38b3b4 4-5,36,56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "a275d0f2eaef4457a5c9862fc03c0f064018e150",
+  "prompts": {},
+  "sessions": {
+    "s_91a0118847b41c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3d564731-ee97-44b1-b14a-cb5a1e651568",
+        "model": "default"
+      },
+      "human_author": "gulingjun <gulingjun@trip.com>"
+    }
+  }
+}
